@@ -108,8 +108,7 @@ jobs:
         with:
           name: digicert_scan_results
           path: digicert_scan_results.zip
-  
- sbom:
+  sbom:
     name: Generate SBOM
     runs-on: ubuntu-latest
     steps:
